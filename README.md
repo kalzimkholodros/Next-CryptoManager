@@ -1,36 +1,166 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next Crypto Manager 📈
 
-## Getting Started
+A modern cryptocurrency management and tracking platform built with Next.js, TypeScript, Material-UI, and Framer Motion. The platform provides real-time market data, interactive charts, portfolio tracking, and live news updates with a sleek dark-themed UI.
 
-First, run the development server:
+![Ekran görüntüsü 2025-03-09 170028](https://github.com/user-attachments/assets/ca95445d-518c-44d3-8bda-0b1a1fd730ce)
+
+
+## Features 🚀
+
+### Dashboard
+- Real-time market overview with key statistics
+- Bitcoin price chart with 7-day historical data
+- Market dominance visualization
+- Active cryptocurrencies and markets count
+- Total market capitalization tracking
+
+### Markets
+- Live cryptocurrency price tracking
+- Top gainers and losers with 20 entries each
+- Advanced sorting and filtering capabilities
+- Favorite cryptocurrency marking system
+- Detailed price information including:
+  - Current price
+  - 24h price change
+  - Market cap
+  - Trading volume
+- Interactive table with pagination
+- Click-through to detailed cryptocurrency pages
+
+### Portfolio
+- Sample portfolio with real-time value tracking
+- Profit/Loss calculation
+- Asset management with:
+  - Purchase price tracking
+  - Current value calculation
+  - Profit/Loss percentage
+  - 24h price changes
+- Remove assets functionality
+- Total portfolio value overview
+
+### News
+- Latest cryptocurrency news from CoinGecko
+- Article cards with thumbnails
+- Author and publication date
+- Direct links to full articles
+- Auto-refresh every 5 minutes
+
+### Crypto Detail Pages
+- Detailed cryptocurrency information
+- 7-day price chart
+- Key metrics including:
+  - Market cap
+  - Trading volume
+  - 24h price range
+- Real-time price updates
+
+
+![Ekran görüntüsü 2025-03-09 170113](https://github.com/user-attachments/assets/ce717309-01d4-4b3f-a21c-afdf3b92f024)
+
+
+
+## Technology Stack 💻
+
+- **Frontend Framework**: Next.js 14
+- **Language**: TypeScript
+- **UI Library**: Material-UI (MUI)
+- **Animations**: Framer Motion
+- **Charts**: Chart.js with react-chartjs-2
+- **API Integration**: Axios
+- **Data Source**: CoinGecko API
+- **State Management**: React Hooks
+- **Styling**: Tailwind CSS
+
+## Getting Started 🏁
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/kalzimkholodros/Next-CryptoManager.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd next-crypto-manager
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+4. Start the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open your browser and visit `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data Updates ⚡
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Market data refreshes every 60 seconds
+- News updates every 5 minutes
+- Portfolio values update in real-time
+- Top Gainers/Losers tables show:
+  - Top 20 cryptocurrencies with highest price increase (24h)
+  - Top 20 cryptocurrencies with highest price decrease (24h)
+  - Real-time price and percentage changes
+  - Market cap and volume information
 
-## Learn More
+## Charts and Graphs 📊
 
-To learn more about Next.js, take a look at the following resources:
+- **Price Charts**: 
+  - 7-day historical data
+  - Interactive tooltips
+  - Gradient fill
+  - Responsive design
+  - Real-time updates
+  - Custom styling with dark theme
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Market Dominance**:
+  - Top 5 cryptocurrencies by market cap
+  - Percentage representation
+  - Visual indicators
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Performance Optimizations 🚀
 
-## Deploy on Vercel
+- Dynamic imports for better loading times
+- Image optimization with Next.js Image component
+- Debounced search functionality
+- Efficient data caching
+- Optimized re-renders
+- Lazy loading for components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## UI/UX Features 🎨
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Responsive design for all screen sizes
+- Dark theme with neon accents
+- Smooth animations and transitions
+- Loading skeletons for better UX
+- Interactive elements with hover effects
+- Modern glassmorphism design
+- Custom scrollbars
+- Error handling with user feedback
+
+## Contributing 🤝
+
+Feel free to contribute to this project by submitting issues and/or pull requests. Please read the contributing guidelines before submitting any changes.
+
+## License 📝
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+

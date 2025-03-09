@@ -55,7 +55,8 @@ A modern cryptocurrency management and tracking platform built with Next.js, Typ
 - Real-time price updates
 
 
-![Ekran görüntüsü 2025-03-09 170113](https://github.com/user-attachments/assets/ce717309-01d4-4b3f-a21c-afdf3b92f024)
+![cripto](https://github.com/user-attachments/assets/8498a16e-9a1f-4ecb-90f4-4de451e286e3)
+
 
 
 
